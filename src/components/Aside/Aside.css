@@ -1,0 +1,18 @@
+.aside{
+    background-image: linear-gradient(to right,rgb(243, 107, 107),rgb(233, 192, 192));
+    padding: 5px;
+    margin: 2px;
+}
+.asideNav{
+    text-decoration: none;
+    color: rgb(1, 4, 44);
+    font-size: 16px;
+    font-weight: 500;
+}
+ul{
+    padding:4px;   
+    list-style: none;
+}
+.asideNav:hover{
+    color: rgb(1, 44, 41);
+}

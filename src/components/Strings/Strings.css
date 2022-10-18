@@ -1,0 +1,25 @@
+.strings{
+    padding: 5px;
+    background-image: linear-gradient(to right,rgb(196, 220, 240),rgb(115, 119, 124));
+    padding-bottom: 15px;
+    margin: 2px;
+}
+button{
+    padding:2px;
+    font-weight: 700;
+    margin: 3px;
+}
+pre{
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(219, 191, 231);
+}
+p{
+    margin: 2px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    margin-top: 5px;
+}

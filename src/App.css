@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  display: grid; 
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: min-content 1fr;
+  min-height: 100vh;
+  margin: 5px 15px;
+  background-color: rgb(72, 73, 73);
+  min-width: 500px;
+  padding: 10px;
+}
+
+
