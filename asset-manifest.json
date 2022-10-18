@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-homework1/static/css/main.33f657fd.css",
+    "main.js": "/react-homework1/static/js/main.fbbc7965.js",
+    "static/js/787.d3a05cc4.chunk.js": "/react-homework1/static/js/787.d3a05cc4.chunk.js",
+    "static/media/Hogwarts.png": "/react-homework1/static/media/Hogwarts.03ced0320a2a7ca3daaa.png",
+    "index.html": "/react-homework1/index.html",
+    "main.33f657fd.css.map": "/react-homework1/static/css/main.33f657fd.css.map",
+    "main.fbbc7965.js.map": "/react-homework1/static/js/main.fbbc7965.js.map",
+    "787.d3a05cc4.chunk.js.map": "/react-homework1/static/js/787.d3a05cc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33f657fd.css",
+    "static/js/main.fbbc7965.js"
+  ]
+}
