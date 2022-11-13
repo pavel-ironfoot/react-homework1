@@ -18,20 +18,20 @@ const Strings = () => {
 
     const getBigLetters=()=>{
         const STR = 'some test string';
-        let firstLetterBig = STR.split('')[0].toUpperCase();
-        let lastLetterBig = STR.split('')[STR.length - 1].toUpperCase();
+        let firstLetterBig = STR[0].toUpperCase();
+        let lastLetterBig = STR[STR.length - 1].toUpperCase();
         dispatch(bigLettersAction(`перша літера ${firstLetterBig}, остання літера ${lastLetterBig}`));
     }
     const getLetters=()=>{
         const STR = 'some test string';
-        let firstLetter = STR.split('')[0];
-        let lastLetter = STR.split('')[STR.length - 1];
+        let firstLetter = STR[0];
+        let lastLetter = STR[STR.length - 1];
         dispatch(getLettersAction(`перша літера ${firstLetter}, остання літера ${lastLetter}`));
     }
     const getBigLettersWith=()=>{
         const STR = 'some test string';
-        let firstLetterBig = STR.split('')[0].toUpperCase();
-        let lastLetterBig = STR.split('')[STR.length - 1].toUpperCase();
+        let firstLetterBig = STR[0].toUpperCase();
+        let lastLetterBig = STR[STR.length - 1].toUpperCase();
         let newStrWithBigLetters = firstLetterBig + STR.slice(1, STR.length - 1) + lastLetterBig;
         dispatch(bigLettersWithStrAction(newStrWithBigLetters));
     }
